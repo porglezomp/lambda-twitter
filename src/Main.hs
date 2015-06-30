@@ -14,7 +14,7 @@ tweets = map Tweet ["Hello, World!", "Another Tweet!"
 content :: Tweet -> String
 content (Tweet x) = x
 
-rawTweet :: Tweet -> Window -> IO ()
+drawTweet :: Tweet -> Window -> IO ()
 drawTweet tweet window = do wAddStr window $ content tweet
                             wAddStr window "\n "
 
