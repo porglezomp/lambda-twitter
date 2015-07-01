@@ -59,7 +59,8 @@ executable twit
   -- Other library packages from which modules are imported.
   build-depends:       base >=4.7 && <4.8,
                        authenticate-oauth >=1.5,
-                       hscurses
+                       hscurses,
+                       ListZipper >=1.2
   
   -- Directories containing source files.
   hs-source-dirs:      src
